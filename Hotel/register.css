@@ -1,0 +1,63 @@
+body{
+	display: flex;
+	flex-direction: row;
+	margin: 0;
+}
+
+.left-col{
+	height: 100vh;
+	width: 50vw;
+	background-image: url('room.jpg');
+	background-size: 700px 700px;
+
+}
+
+.right-col{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(to left, #6699ff 11%, #ccffff 90%);
+	height: 100vh;
+	width: 50vw;
+}
+
+.right-col h3{
+	margin-bottom: 0;
+	font-family: calibri;
+	font-size: 30px;
+}
+
+.form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	padding-top: 30px;
+}
+
+input{
+	width: 300px;
+	height: 40px;
+	margin: 5px;
+	border: 0.5px solid silver;
+	padding: 4px;
+	padding-left: 10px;
+	margin-bottom: 20px;
+	border-radius: 4px;
+}
+
+input::selection{
+	border: 1px solid silver;
+}
+
+button{
+	height: 50px;
+	width: 310px;
+	color: white;
+	background-color: blue;
+	border: 0.5px solid blue;
+	border-radius: 5px;
+	margin-left: 0;
+}

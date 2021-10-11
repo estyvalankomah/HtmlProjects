@@ -1,0 +1,185 @@
+body{
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+}
+
+.navbar{
+	display: flex;
+	flex-direction: row;
+	width: 100vw;
+	height: 12vh;
+	color: white;
+	background-color: #0059b3;
+}
+
+.left-row{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	font-family: klavika;
+	font-size: 50px;
+	padding-bottom: 5px;
+	width: 40vw;
+}
+
+.right-row{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	width: 60vw;
+}
+
+input{
+	width: 150px;
+	margin-right: 10px;
+	margin-top: 0;
+	margin-bottom: 36px;
+}
+
+#login-button{
+	background-color: #1a1aff;
+	padding-top: 2px;
+	padding-right: 3px;
+	border: 0.5px solid #1a1aff;
+	color: white;
+}
+
+.col{
+	display: flex;
+	flex-direction: column;
+}
+
+.col p{
+	padding-bottom: 5px;
+	margin-bottom: 0;
+}
+
+.main{
+	display: flex;
+	flex-direction: row;
+	width: 100vw;
+	height: 88vh;
+	background-color: #e6e6ff;
+	font-family: calibri;
+}
+
+.left-col{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	padding-top: 10px;
+}
+
+.left-col h1{
+	margin-top: 0;
+	padding-left: 50px;
+}
+
+.center-box{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 100px;
+  width: 600px;
+ }
+
+.row{
+	display: flex;
+  	flex-direction: row;
+  	margin-top: 20px;
+  	margin-left: 50px;
+}
+
+.row h3{
+	margin: 20px;
+}
+
+.row span{
+	font-weight: lighter;
+}
+
+.right-col{
+	display: flex;
+	flex-direction: column;
+	justify-content: top;
+	align-items: flex-start;
+	width: 50%;
+	padding-top: 10px;
+	margin-left: 60px;
+}
+
+.left-box{
+	display: flex;
+	flex-direction: column;
+
+}
+
+.left-box h1{
+	margin-bottom: 0;
+}
+
+.left-box p{
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 20px;
+}
+
+.left-box .row{
+	margin-left: 0;
+}
+
+.left-box .row input{
+	width: 200px;
+	height: 40px;
+	margin-top: 0;
+	border: 0.5px solid silver;
+	border-radius: 4px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+}
+
+#input{
+	width: 420px;
+	height: 40px;
+	margin-top: 0;
+	border: 0.5px solid silver;
+	border-radius: 4px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+}
+
+.bday-row{
+	display: flex;
+	flex-direction: row;
+	width: 180px;
+}
+
+#enter{
+	width: 60px;
+	height: 20px;
+	margin: 0;
+}
+
+#male{
+	margin-top: 0;
+	margin-right: 50px;
+	padding-bottom: 10px;
+}
+
+#sign-up{
+	margin-top: 30px;
+	width: 200px;
+	height: 40px;
+	border-radius: 4px;
+	background-color: #558000;
+	color: white;
+	display: inline-block;
+}
